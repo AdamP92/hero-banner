@@ -19,8 +19,8 @@ body {
 .banner-content {
   position: absolute;
   top: 10px;
-  left: 10%;
-  transform: translateX(-10%);
+  left: 5%;
+  transform: translateX(-5%);
   bottom: 10%;
   text-align: left;
   max-width: 50em;
