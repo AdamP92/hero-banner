@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  transform: translateX(-10%);
+  bottom: 10%;
+  text-align: left;
+  max-width: 50em;
+}
+
+div h2 {
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 0;
+}
+
+div p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.img-flex {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
