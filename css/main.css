@@ -17,13 +17,14 @@ body {
 }
 
 .banner-content {
+  line-height: 1.4;
   position: absolute;
-  top: 5px;
-  left: 8%;
-  transform: translateX(-5%);
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 10%;
+  top: 4px;
+  width: 95%;
   text-align: left;
-  max-width: 50em;
   display: block;
   margin: 0 auto;
 }
@@ -31,13 +32,13 @@ body {
 h2 {
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  display: inline-block;
+  display: inline;
 }
 
 div h2 {
   font-size: 4rem;
   margin: 0;
-  display: inline-block;
+  display: inline;
 }
 
 div p {
@@ -52,4 +53,16 @@ div p {
   overflow: hidden;
   display: block;
   width: 100%;
+}
+
+@media only screen and (min-width: 85em) {
+
+  .banner-content {
+    max-width: 50em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12em;
+    bottom: 2em;
+  }
 }
